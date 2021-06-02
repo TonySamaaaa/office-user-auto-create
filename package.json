@@ -1,5 +1,5 @@
 {
-  "name": "cloudflare-worker-template",
+  "name": "office-user-auto-create",
   "version": "1.0.0",
   "description": "A Cloudflare Worker Template",
   "main": "index.ts",

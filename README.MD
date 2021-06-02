@@ -4,11 +4,11 @@
 
 ## 用 [cloudflare worker](https://workers.cloudflare.com/) 自助创建 office 账号
 
-#### 后端 | [前端](https://github.com/zayabighead/office-user-auto-create/tree/client)
+#### 后端 | [前端](https://github.com/TonySamaaaa/office-user-auto-create/tree/static)
 
 ## 🚚 部署
 
-[![Deploy to Cloudflare Workers](https://deploy.workers.cloudflare.com/button)](https://deploy.workers.cloudflare.com/?url=https://github.com/zayabighead/office-user-auto-create)
+[![Deploy to Cloudflare Workers](https://deploy.workers.cloudflare.com/button)](https://deploy.workers.cloudflare.com/?url=https://github.com/TonySamaaaa/office-user-auto-create)
 
 1. 按照提示在 GitHub 上授权 Worker
 
@@ -35,6 +35,6 @@
     + `_AAD_CONFIG`: [Azure Active Directory](https://portal.azure.com/#blade/Microsoft_AAD_IAM/ActiveDirectoryMenuBlade/RegisteredApps)
       的 `APP` 凭证配置
     + `_OFFICE_DOMAINS`: Office 下的域名
-    + `_OFFICE_SUBSCRIPTIONS`: Office 的的订阅配置
+    + `_OFFICE_SUBSCRIPTIONS`: Office 的[订阅](https://docs.microsoft.com/zh-cn/azure/active-directory/enterprise-users/licensing-service-plan-reference)配置
     + `_USERNAME_BLACKLIST`: 用户名黑名单
     + `_GENERATE_CODES_PATH_SECRET`: 生成激活码的路径，建议生成一个随机密码，生成激活码时浏览器访问 `https://<前缀>.workers.dev/<随机密码>/<数量>`
